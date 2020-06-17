@@ -24,6 +24,6 @@ end
 
 arr = %w[hi hello hey]
 
-p bubble_sort_by(arr) { |right, left| right <=> left }
+bubble_sort_by(arr) { |right, left| right <=> left }
 
-p bubble_sort([1, 2, 5, 3, 6, 5, 6, 6, 7, 4, 3])
+bubble_sort([1, 2, 5, 3, 6, 5, 6, 6, 7, 4, 3])
