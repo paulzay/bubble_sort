@@ -14,8 +14,7 @@ def bubble_sort_by(arr)
   new_arr = arr
   (0...len).map do |number|
     (0...len - number).map do |num|
-      compare = yield(new_arr[num], new_arr[num + 1])
-      new_arr[num], new_arr[num + 1] = new_arr[num + 1], new_arr[num] if compare > 1
+      new_arr[num], new_arr[num + 1] = new_arr[num + 1], new_arr[num] if yield(new_arr[num], new_arr[num + 1]) > 1
     end
   end
   new_arr
