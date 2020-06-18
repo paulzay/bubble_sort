@@ -30,7 +30,7 @@ One of the simpler (but more processor-intensive) ways of sorting a group of ite
 
 ## Live demo
 > click the link to see live demo
-[Open live demo] (https://repl.it/@keddo/bubblesort#main.rb)
+> [Open live demo] (https://repl.it/@keddo/bubblesort#main.rb)
 
 # Getting Started 🚀
 
