@@ -18,6 +18,6 @@ end
 
 arr = %w[hi hello hey]
 unsorted = (1..10).to_a.reverse!
-p bubble_sort_by(unsorted) { |left, right| left - right }
-p bubble_sort_by(arr) { |left, right| left.length - right.length }
-p bubble_sort([1, 2, 5, 3, 6, 5, 6, 6, 7, 4, 3])
+bubble_sort_by(unsorted) { |left, right| left - right }
+bubble_sort_by(arr) { |left, right| left.length - right.length }
+bubble_sort([1, 2, 5, 3, 6, 5, 6, 6, 7, 4, 3])
