@@ -1,7 +1,7 @@
 def bubble_sort(arr)
   len = arr.size - 1
 
-  (0..len).map do |number|
+  (0...len).map do |number|
     (0...len - number).map do |num|
       arr[num], arr[num + 1] = arr[num + 1], arr[num] if arr[num] > arr[num +1]
     end
@@ -12,8 +12,8 @@ end
 def bubble_sort_by(arr)
   len = arr.size - 1
   new_arr = arr
-  (0..len).map do |number|
-    (0..len - number - 1).map do |num|
+  (0...len).map do |number|
+    (0...len - number).map do |num|
       compare = yield(new_arr[num], new_arr[num + 1])
       new_arr[num], new_arr[num + 1] = new_arr[num + 1], new_arr[num] if compare > 1
     end
