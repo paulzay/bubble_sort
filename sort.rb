@@ -10,7 +10,7 @@ end
 def bubble_sort_by(arr)
   new_arr = arr
   (0...new_arr.length - 1).map do |number|
-    (0...len - number).map do |num|
+    (0...new_arr.length - number).map do |num|
       new_arr[num], new_arr[num + 1] = new_arr[num + 1], new_arr[num] if yield(new_arr[num], new_arr[num + 1]) > 0
     end
   end
