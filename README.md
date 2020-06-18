@@ -40,7 +40,7 @@ From your command line, first clone the project:
 # Clone this repository
 $ git clone https://github.com/paulzay/bubble_sort
 
-# Go into the repository
+# Go in                                                   to the repository
 $ cd bubble_sort
 
 # Open the project on Vscode
